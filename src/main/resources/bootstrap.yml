@@ -1,0 +1,20 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+           uri: https://github.com/gsamartian/demo-config-repo
+           searchPaths: '{application}'
+           default-label: master
+           basedir: /apps/demo-config-repo/cloned-repo
+           clone-on-start: false
+           force-pull: true
+ 
+
+
+                         

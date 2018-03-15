@@ -1,0 +1,43 @@
+****eureka-service****
+
+logs where accessing 
+
+http://localhost:8888/eureka-service/dev
+
+2018-03-16 00:37:30.359 TRACE 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/ with property source: springCloudClientHostInfo
+2018-03-16 00:37:30.359 TRACE 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/eureka-service/ with property source: springCloudClientHostInfo
+2018-03-16 00:37:30.359 DEBUG 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Not adding property source: springCloudClientHostInfo
+2018-03-16 00:37:30.359 TRACE 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/ with property source: file:/D:/apps/demo-config-repo/cloned-repo/eureka-service/eureka-service-dev.yml
+2018-03-16 00:37:30.359 TRACE 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/eureka-service/ with property source: file:/D:/apps/demo-config-repo/cloned-repo/eureka-service/eureka-service-dev.yml
+2018-03-16 00:37:30.359  INFO 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/D:/apps/demo-config-repo/cloned-repo/eureka-service/eureka-service-dev.yml
+2018-03-16 00:37:30.359 TRACE 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/ with property source: file:/D:/apps/demo-config-repo/cloned-repo/application-dev.yml
+2018-03-16 00:37:30.359  INFO 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/D:/apps/demo-config-repo/cloned-repo/application-dev.yml
+2018-03-16 00:37:30.359 TRACE 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/ with property source: file:/D:/apps/demo-config-repo/cloned-repo/eureka-service/eureka-service.yml
+2018-03-16 00:37:30.359 TRACE 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/eureka-service/ with property source: file:/D:/apps/demo-config-repo/cloned-repo/eureka-service/eureka-service.yml
+2018-03-16 00:37:30.359  INFO 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/D:/apps/demo-config-repo/cloned-repo/eureka-service/eureka-service.yml
+2018-03-16 00:37:30.359 TRACE 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/ with property source: file:/D:/apps/demo-config-repo/cloned-repo/application.yml
+2018-03-16 00:37:30.359  INFO 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/D:/apps/demo-config-repo/cloned-repo/application.yml
+2018-03-16 00:37:30.359 TRACE 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/ with property source: classpath:/application.yml
+2018-03-16 00:37:30.359 TRACE 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/eureka-service/ with property source: classpath:/application.yml
+2018-03-16 00:37:30.359 DEBUG 10816 --- [ XNIO-2 task-10] o.s.c.c.s.e.NativeEnvironmentRepository  : Not adding property source: classpath:/application.yml
+2018-03-16 00:37:30.359  INFO 10816 --- [ XNIO-2 task-10] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@28498fa6: startup date [Fri Mar 16 00:37:30 IST 2018]; root of context hierarchy
+
+
+
+=============
+logs where accessing 
+
+http://localhost:8888/application-plan-service/dev
+
+application-plan-service***
+
+2018-03-16 00:38:18.963 TRACE 10816 --- [ XNIO-2 task-12] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/ with property source: springCloudClientHostInfo
+2018-03-16 00:38:18.963 TRACE 10816 --- [ XNIO-2 task-12] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/application-plan-service/ with property source: springCloudClientHostInfo
+2018-03-16 00:38:18.963 DEBUG 10816 --- [ XNIO-2 task-12] o.s.c.c.s.e.NativeEnvironmentRepository  : Not adding property source: springCloudClientHostInfo
+2018-03-16 00:38:18.963 TRACE 10816 --- [ XNIO-2 task-12] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/ with property source: file:/D:/apps/demo-config-repo/cloned-repo/application-plan-service/application-plan-service-dev.yml
+2018-03-16 00:38:18.963 TRACE 10816 --- [ XNIO-2 task-12] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/application-plan-service/ with property source: file:/D:/apps/demo-config-repo/cloned-repo/application-plan-service/application-plan-service-dev.yml
+2018-03-16 00:38:18.963  INFO 10816 --- [ XNIO-2 task-12] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/D:/apps/demo-config-repo/cloned-repo/application-plan-service/application-plan-service-dev.yml
+2018-03-16 00:38:18.963 TRACE 10816 --- [ XNIO-2 task-12] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/ with property source: file:/D:/apps/demo-config-repo/cloned-repo/application-plan-service/application-plan-service.yml
+2018-03-16 00:38:18.963 TRACE 10816 --- [ XNIO-2 task-12] o.s.c.c.s.e.NativeEnvironmentRepository  : Testing pattern: D:/apps/demo-config-repo/cloned-repo/application-plan-service/ with property source: file:/D:/apps/demo-config-repo/cloned-repo/application-plan-service/application-plan-service.yml
+2018-03-16 00:38:18.963  INFO 10816 --- [ XNIO-2 task-12] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/D:/apps/demo-config-repo/cloned-repo/application-plan-service/application-plan-service.yml
+2018-03-16 00:38:18.963  INFO 10816 --- [ XNIO-2 task-12] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1959f90d: startup date [Fri Mar 16 00:38:18 IST 2018]; root of context hierarchy

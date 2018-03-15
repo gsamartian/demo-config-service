@@ -1,0 +1,18 @@
+Purpose
+********
+
+Demo Spring cloud Config based Config Service to highlight
+the issue when having a folder/serviceId prefixed with application.
+
+When fetching the configuraiton via the config server, any serviceId/folder which has "application" prefixed is skipped.
+
+This means, the public/global application.yml and application-<env>.yml are skipped and only the service specific config is fetched.
+
+I am not sure if the standard is to not name serviceId starting with "application" or if it is bug with config server.
+
+So, I created this repo to demonstrate the issue.
+
+The logs obtained when accessing are available in logs.txt file.
+
+
+
